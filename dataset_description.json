@@ -1,12 +1,18 @@
 {
-    "Name": "Mapping object space dimensions: new insights from temporal dynamics",
-    "BIDSVersion": "1.10.0",
-    "DatasetType": "raw",
-    "Authors": [
-        "Alexis Kidder(*)",
-        "Genevieve Quek",
-        "Tijl Grootswagers"
-    ],
-    "License": "CC0",
-    "DatasetDOI": "doi:10.18112/openneuro.ds005648.v1.0.3"
+  "Name": "Mapping object space dimensions: new insights from temporal dynamics",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "raw",
+  "Authors": [
+    "Alexis Kidder(*)",
+    "Genevieve Quek",
+    "Tijl Grootswagers"
+  ],
+  "License": "CC0",
+  "DatasetDOI": "10.82901/nemar.on005648",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds005648.v1.0.3"
+    }
+  ],
+  "Version": "1.0.0"
 }
