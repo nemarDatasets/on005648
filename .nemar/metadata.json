@@ -1,29 +1,70 @@
 {
   "version": "2.0",
-  "dataset_id": "on005648",
-  "source": "openneuro",
-  "source_id": "ds005648",
+  "pipeline_stage": "enriched",
   "title": "Mapping object space dimensions: new insights from temporal dynamics",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Alexis Kidder(*)": {},
     "Genevieve Quek": {},
     "Tijl Grootswagers": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005648.v1.0.3",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005648",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005648",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.10.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "38.1 GB (932 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".csv",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "This dataset contains raw EEG recordings from a study investigating the neural representation of object space dimensions through temporal dynamics analysis. Participants performed a visual task while neural activity was recorded, with concurrent behavioral data documenting stimulus presentation and trial structure. The dataset includes raw neural signals and event-related information organized in BIDS format.",
+  "methods_description": "Data were collected during EEG sessions using BDF format recordings. Trial-by-trial behavioral data documenting stimulus presentation and task events were collected concurrently. Channel information and sampling rates are provided for all trials.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "object representation"
+    },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "temporal dynamics"
+    },
+    {
+      "term": "neural encoding"
+    },
+    {
+      "term": "BIDS"
+    }
+  ],
+  "source_hash": "6c45c9ea9c6553135f66f4614ce22dfe9bdf9d68391503612757937f8e055a78"
 }
