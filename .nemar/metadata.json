@@ -44,14 +44,14 @@
     ".tsv",
     ".yml"
   ],
-  "description": "This dataset contains raw EEG recordings from a study investigating the neural representation of object space dimensions through temporal dynamics analysis. Participants performed a visual task while neural activity was recorded, with concurrent behavioral data documenting stimulus presentation and trial structure. The dataset includes raw neural signals and event-related information organized in BIDS format.",
-  "methods_description": "Data were collected during EEG sessions using BDF format recordings. Trial-by-trial behavioral data documenting stimulus presentation and task events were collected concurrently. Channel information and sampling rates are provided for all trials.",
+  "description": "This dataset contains raw EEG recordings from participants performing a visual object recognition task designed to investigate how the brain represents object space dimensions over time. The study combines neuroimaging data with behavioral measurements to provide new insights into the temporal dynamics of object space coding in human perception.",
+  "methods_description": "Data were collected during EEG sessions where participants viewed visual stimuli on screen. Raw EEG data were recorded in BDF format with concurrent behavioral trial data documenting stimulus presentation. Channel information and sampling rates are documented for each participant. The dataset is organized in BIDS format with raw EEG data files (.bdf) and associated metadata for each participant.",
   "keywords": [
     {
       "term": "EEG"
     },
     {
-      "term": "object representation"
+      "term": "object recognition"
     },
     {
       "term": "visual perception"
@@ -60,10 +60,19 @@
       "term": "temporal dynamics"
     },
     {
-      "term": "neural encoding"
+      "term": "neural representation"
     },
     {
-      "term": "BIDS"
+      "term": "object space"
+    },
+    {
+      "term": "representational dynamics"
+    },
+    {
+      "term": "BDF"
+    },
+    {
+      "term": "visual stimuli"
     }
   ],
   "source_hash": "6c45c9ea9c6553135f66f4614ce22dfe9bdf9d68391503612757937f8e055a78"
