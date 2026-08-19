@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Mapping object space dimensions: new insights from temporal dynamics",
-  "description": "This dataset contains raw MEG and EEG recordings from a study investigating how the brain represents object space dimensions through temporal dynamics analysis. The main folder contains raw MEG data for all participants in BIDS format. The sourcedata folder contains raw EEG data in BDF format along with concurrent behavioral trial data documenting stimulus presentation and trial structure. Participants performed a visual task while neural activity was recorded from both modalities.",
-  "methods_description": "MEG and EEG data were collected during a visual task (task-targets). MEG data are provided in BIDS format in the main folder. EEG data were recorded in BDF format with event markers and channel information documented. Behavioral trial data including stimulus presentation events are provided in the sourcedata folder in CSV and TSV formats.",
+  "description": "This dataset comprises raw EEG recordings collected to investigate the temporal dynamics underlying object space dimensions in human perception. Participants completed a rapid image presentation task while EEG data were recorded, enabling analysis of the time course of object representation. The dataset includes behavioral event data alongside BIDS-formatted EEG recordings, supporting research into visual object processing and neural representational geometry.",
+  "methods_description": "EEG data were collected during a task in which participants viewed a series of target images. Raw EEG recordings were stored in BDF format, with accompanying event files detailing stimulus presentation and channel/sampling rate information for each trial.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,28 +13,23 @@
   },
   "keywords": [
     {
-      "term": "MEG"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "EEG"
-    },
-    {
-      "term": "object representation"
-    },
-    {
-      "term": "visual perception"
+      "term": "object perception"
     },
     {
       "term": "temporal dynamics"
     },
     {
-      "term": "neural encoding"
+      "term": "Visual Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
     },
     {
-      "term": "space dimensions"
-    },
-    {
-      "term": "BIDS"
+      "term": "representational geometry"
     }
   ],
   "related_identifiers": [
