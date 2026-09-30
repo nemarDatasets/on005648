@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Mapping object space dimensions: new insights from temporal dynamics",
-  "description": "This dataset comprises raw EEG recordings collected to investigate the temporal dynamics underlying object space dimensions in human perception. Participants completed a rapid image presentation task while EEG data were recorded, enabling analysis of the time course of object representation. The dataset includes behavioral event data alongside BIDS-formatted EEG recordings, supporting research into visual object processing and neural representational geometry.",
+  "description": "This dataset contains raw EEG data in BIDS format from participants viewing object images, collected to map the dimensions of object space and examine their temporal dynamics. Source data include trial-level behavioral event files detailing what was shown on screen during the EEG session. The dataset accompanies a study on how object representations unfold over time.",
   "methods_description": "EEG data were collected during a task in which participants viewed a series of target images. Raw EEG recordings were stored in BDF format, with accompanying event files detailing stimulus presentation and channel/sampling rate information for each trial.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -13,23 +13,19 @@
   },
   "keywords": [
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "EEG"
     },
     {
-      "term": "object perception"
+      "term": "object recognition"
     },
     {
       "term": "temporal dynamics"
     },
     {
-      "term": "Visual Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
+      "term": "object space"
     },
     {
-      "term": "representational geometry"
+      "term": "visual perception"
     }
   ],
   "related_identifiers": [
@@ -55,7 +51,7 @@
     "eeg"
   ],
   "sizes": [
-    "38.1 GB (932 files)"
+    "35.50 GB (932 files)"
   ],
   "formats": [
     ".bdf",
